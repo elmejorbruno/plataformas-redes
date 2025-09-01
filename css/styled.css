@@ -137,6 +137,7 @@ li{
     transform: scaleY(0);
     visibility: hidden;
     opacity: 0;
+    border-radius: 10px;
 }
 .menu li:hover > .submenu{
     opacity: 1;
@@ -149,10 +150,13 @@ li{
     padding: 10px 20px;
    width: 100%;
     color: black;
+    
+
 }
 .menu .submenu a:hover{
-    background-color: rgb(220, 230, 230);
-
+   border-radius: 10px;
+    background-color: black;
+    color: #fff;
 }
 
 .banner{
@@ -343,18 +347,7 @@ main{
     font-weight: 500;
 }
 
-.container-footer{
-    width: 100%;
-    height:30vh;
-    background-color: #533636;
-    display: flex;
-    
 
-}
-.redes-sociale-web{
-    background-color: rgb(84, 84, 68);
-    width: 100%;
-}
 .description{
     position: absolute;
     top: 50%;
@@ -379,6 +372,29 @@ main{
     max-width: 100%;
     width: 500px;
     line-height: 1.5;
+}
+.container-footer{
+    width: 100%;
+    height:30vh;
+    background-color:black;
+    display: flex;
+    
+
+}
+
+.container-footer .redes-sociale-web{
+    width: 100%;
+    height: 10vh;
+   
+}
+.container-footer p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+
+    
 }
 
 
