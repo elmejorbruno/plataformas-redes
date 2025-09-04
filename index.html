@@ -12,20 +12,24 @@
     <!-- https://www.youtube.com/watch?v=_ABKth7CMh0 -->
      <!-- reto carousel con react https://www.youtube.com/watch?v=0mdjgQdQF1k -->
      <div class="container">
-        <header>
+        <header id="inicio">
             <nav class="menu">
                 <div class="logo">
                     <img src="img/logo-lado-de-redes-borde-verde.png" alt="">
                 </div>
                 <ul>
-                   <li class="item-menu"> <a href="">Inicio <span></span></a></li>
-                    <li class="item-menu"><a href="">Redes sociales <span></span></a>
+                   <li class="item-menu"> <a href="#inicio">Inicio <span></span></a></li>
+                    <li class="item-menu"><a href="#redes-sociales">Redes sociales <span></span></a>
                     <ul class="submenu">
-                        <li class="submenu-li"><a href="">Hi5 </a></li>
-                        <li class="submenu-li"><a href="">Myspace</a></li>
-                        <li class="submenu-li"><a href="">MSN Messenger</a></li>
-                        <li class="submenu-li"><a href="">Twitter</a></li>
-                        <li class="submenu-li"><a href="">Facebook</a></li>
+                        <li class="submenu-li"><a href="#sixDegrees ">SixDegrees </a></li>
+                        <li class="submenu-li"><a href="#msn">msn messenger</a></li>
+                        <li class="submenu-li"><a href="#friendster">Friendster  </a></li>
+                        <li class="submenu-li"><a href="#hi5">Hi5 </a></li>
+                        <li class="submenu-li"><a href="#myspace">Myspace</a></li>
+                        <li class="submenu-li"><a href="#orkut">Orkut</a></li>
+                        <li class="submenu-li"><a href="#fotolog">Fotolog</a></li>
+                        <li class="submenu-li"><a href="#facebook">Facebook</a></li>
+                        <li class="submenu-li"><a href="#twitter">Twitter</a></li>
                     </ul>
                     </li>
                     <li class="item-menu"><a href="">Contacto <span></span></a></li>
@@ -39,21 +43,25 @@
 
         <div class="image_slider">
             <div class="image_track">
-            <div class="image_container">
-                <div class="card"><a class="link-card" href="windonwhide.html"><img src="img/Friendster.png" alt=""><span class="nombre-redes">HI5</span></a></div>
-                <div class="card"><a class="link-card" href="windonwhide.html"><img src="img/hi5.png" alt=""><span class="nombre-redes">HI5</span></a></div>
-                <div class="card"><a class="link-card" href="windonwhide.html"><img src="img/myspace (1).png" alt=""><span class="nombre-redes">myspace</span></a></div>
-                <div class="card"><a class="link-card" href="windonwhide.html"><img src="img/msn-messenger.png" alt=""><span class="nombre-redes">msn messenger</span></a></div>
-                <div class="card"><a class="link-card" href="windonwhide.html"><img src="img/facebook.png" alt=""><span class="nombre-redes">facebook</span></a></div>
-                <div class="card"><a class="link-card" href="windonwhide.html"><img src="img/twitter.png" alt=""><span class="nombre-redes">twiter</span></a></div>
-               
-    
-            </div>
-                <!-- 🔁 duplicamos el bloque para efecto infinito -->
-    <div class="image_container">
-      <div class="card"><a class="link-card" href="windonwhide.html"><img src="img/instagram.png" alt=""><span class="nombre-redes">instagram</span></a></div>
-      <div class="card"><a href="#"><img src="img/hi5.png"><span class="nombre-redes">HI5</span></a></div>
-      <div class="card"><a href="#"><img src="img/myspace.png"><span class="nombre-redes">Myspace</span></a></div>
+                <div class="image_container">
+                <div class="card"><a href="#SixDegrees"><img src="img/SixDegrees.jpeg"><span class="nombre-redes">SixDegrees</span></a></div>
+                      <div class="card"><a href="#msn "><img src="img/msn-messenger.png"><span class="nombre-redes">msn messenger</span></a></div>
+                      <div class="card"><a href="#Friendster "><img src="img/Friendster.png"><span class="nombre-redes">Friendster </span></a></div>
+                      <div class="card"><a href="#hi5"><img src="img/hi5.png"><span class="nombre-redes">Hi5</span></a></div>
+                      <div class="card"><a href="#myspace"><img src="img/myspace.png"><span class="nombre-redes">Myspace</span></a></div>
+                      
+                      <div class="card"><a class="link-card" href="#Orkut"><img src="img/orkut-logo-.jpg" alt=""><span class="nombre-redes">Orkut</span></a></div>
+                      <div class="card"><a class="link-card" href="#fotolog"><img src="img/logo-fotolog.png" alt=""><span class="nombre-redes">Fotolog</span></a></div>
+                      
+                      
+                    </div>
+                    <!-- 🔁 duplicamos el bloque para efecto infinito -->
+                    <div class="image_container">
+                        
+                        <div class="card"><a class="link-card" href="#facebook"><img src="img/facebook.png" alt=""><span class="nombre-redes">Facebook</span></a></div>
+                        <div class="card"><a class="link-card" href="#twitter"><img src="img/twitter.png" alt=""><span class="nombre-redes">Twiter</span></a></div>
+        <div class="card"><a href="#"><img src="img/myspace.png"><span class="nombre-redes">Myspace</span></a></div>
+        <div class="card"><a class="link-card" href="windonwhide.html"><img src="img/instagram.png" alt=""><span class="nombre-redes">instagram</span></a></div>
       <div class="card"><a href="#"><img src="img/msn.png"><span class="nombre-redes">MSN</span></a></div>
       <div class="card"><a href="#"><img src="img/facebook.png"><span class="nombre-redes">Facebook</span></a></div>
       <div class="card"><a href="#"><img src="img/twitter.png"><span class="nombre-redes">Twitter</span></a></div>
@@ -101,90 +109,129 @@
                         <p class="parrafo">En sus comienzos, las redes sociales eran como plazas digitales: espacios para encontrarse, compartir y construir comunidad. Pero con el tiempo, esas plazas se convirtieron en escaparates. Aquí repasamos los primeros pasos de esa transformación, red por red.</p>
                 </section>
                     <div class="content">
-                       <h2> Redes sociales </h2>
+                       <h2 id="redes-sociales"> Redes sociales </h2>
                         <ul class="redes-list">
-                            <li><a href="">SixDegrees (1997)</a>
+                            <li>
+                                <div class="redes-list-title">
+                                    <img src="img/SixDegrees.jpeg" alt="">
+                                    <h3 id="SixDegrees">SixDegrees (1997)</h3>
+
+                                </div>
                             <p class="parrafo"> Fundada por Andrew Weinreich, abogado y emprendedor visionario Considerada la primera red social moderna, permitía crear un perfil, tener lista de amigos y enviar mensajes. Su nombre hacía referencia a la teoría de “los seis grados de separación”. Aunque cerró en el año 2001, abrió el camino para todo lo que vendría después. </P>
 
                             <p class="parrafo">  Su nombre aludía a la teoría de los seis grados de separación, que sugiere que todos estamos conectados con cualquiera en el mundo a través de seis contactos.</P>
                             <p class="parrafo"> Cerró en 2001 por falta de rentabilidad y baja adopción. Nos dejó la base conceptual de lo que hoy entendemos como “red social moderna”.</P>
                                 
                             </li>
-                            <li><a href="">Friendster (2002)</a>
-                                <p class="parrafo"> Sus inicios fueron impulsados por Jonathan Abrams en California. Su objetivo era conectar amigos de amigos. Fue muy popular en Asia y llegó a tener millones de usuarios activos. Curiosamente, muchos la usaban para citas en línea, aunque no era su propósito inicial.</p>
-                                <p class="parrafo">  Se centraba en conectar amigos de amigos. Tenía perfiles sencillos, foros y recomendaciones sociales.</P>
-                                <p class="parrafo"> Alcanzó más de 100 millones de usuarios, siendo especialmente popular en Asia. </P>
-                                <p class="parrafo">Su sistema era lento y con fallos técnicos. Muchos migraron a MySpace y Facebook. Su historia nos recuerda que en internet la innovación rápida es clave para sobrevivir. </P>
-                                </li>
-                                <li><a href="">Hi5 (2003)</a>
-                                    <p class="parrafo">Popular sobre todo en Latinoamérica, esta red permitía personalizar perfiles con música, colores y widgets. Una de sus características más recordadas fue que te mostraba el ranking de “los más visitados”, lo que generaba competencia entre amigos.</p>
-                                    <p class="parrafo"> </P>
-                                    <p class="parrafo"> </P>
-                                    </li>
-                                    <p class="parrafo"> </P>
-                            <li><a href="">Myspace (2003)</a>
-                            <p class="parrafo"> Fue la primera red social masiva en Estados Unidos. Se convirtió en un espacio clave para músicos emergentes, ya que podían compartir canciones y ganar seguidores. Bandas como Arctic Monkeys y artistas como Lily Allen iniciaron su fama aquí.</p>
-                            <p class="parrafo"> </p>
-                            <p class="parrafo"> </p>
-                            <p class="parrafo"> </p>
-                            </li>
-                            <li><a href="">msn messenger (1999)</a>
+                                                  <li>
+                                <div class="redes-list-title">
+                                    <img src="img/msn-messenger.png" alt="">
+                                    <h3 id="msn">msn messenger (1999)</h3>
+
+                                </div>
+                                
                                 <p class="parrafo">Aunque no era una red social como tal, sí fue un precursor clave de la comunicación digital. Permitía chats en tiempo real, emoticonos animados y los famosos “zumbidos” para llamar la atención. Muchos lo recuerdan como el espacio donde surgieron amistades y romances digitales. </p>
                                 <p class="parrafo"> </p>
                                 <p class="parrafo"> </p>
                                 <p class="parrafo"> </p>
                             </li>
-                            <li><a href="">Orkut (2004)</a>
+                            <li>
+                                <div class="redes-list-title">
+                                    <img src="img/Friendster.png" alt="">
+                                    <h3 id="Friendster">Friendster (2002)</h3>
+
+                                </div>
+                                <p class="parrafo"> Sus inicios fueron impulsados por Jonathan Abrams en California. Su objetivo era conectar amigos de amigos. Fue muy popular en Asia y llegó a tener millones de usuarios activos. Curiosamente, muchos la usaban para citas en línea, aunque no era su propósito inicial.</p>
+                                <p class="parrafo">  Se centraba en conectar amigos de amigos. Tenía perfiles sencillos, foros y recomendaciones sociales.</P>
+                                <p class="parrafo"> Alcanzó más de 100 millones de usuarios, siendo especialmente popular en Asia. </P>
+                                <p class="parrafo">Su sistema era lento y con fallos técnicos. Muchos migraron a MySpace y Facebook. Su historia nos recuerda que en internet la innovación rápida es clave para sobrevivir. </P>
+                                </li>
+                                <li>
+                                    <div class="redes-list-title">
+                                    <img src="img/hi5.png" alt="">
+                                    <h3 id="hi5">Hi5 (2003)</h3>
+
+                                </div>
+                                    
+                                    <p class="parrafo">Popular sobre todo en Latinoamérica, esta red permitía personalizar perfiles con música, colores y widgets. Una de sus características más recordadas fue que te mostraba el ranking de “los más visitados”, lo que generaba competencia entre amigos.</p>
+                                    <p class="parrafo"> </P>
+                                    <p class="parrafo"> </P>
+                                    </li>
+                                    <p class="parrafo"> </P>
+                            <li>
+                                <div class="redes-list-title">
+                                    <img src="img/myspace1.png" alt="">
+                                    <h3 id="myspace"> Myspace (2003)</h3>
+
+                                </div>
+                               
+                            <p class="parrafo"> Fue la primera red social masiva en Estados Unidos. Se convirtió en un espacio clave para músicos emergentes, ya que podían compartir canciones y ganar seguidores. Bandas como Arctic Monkeys y artistas como Lily Allen iniciaron su fama aquí.</p>
+                            <p class="parrafo"> </p>
+                            <p class="parrafo"> </p>
+                            <p class="parrafo"> </p>
+                            </li>
+      
+                            <li>
+                                <div class="redes-list-title">
+                                    <img src="img/orkut-logo-.jpg" alt="">
+                                    <h3 id="Orkut">Orkut (2004)</h3>
+
+                                </div>
+                                
                                 <p class="parrafo">Creada por Google, fue una de las redes sociales más utilizadas en Brasil e India. Se destacaba por los grupos temáticos llamados “comunidades”, que permitían a los usuarios conectarse por intereses comunes. </p>
                                 <p class="parrafo"> </p>
                                 <p class="parrafo"> </p>
                                 <p class="parrafo"> </p>
                             </li>
-                            <li><a href="">Fotolog (2002)</a>
+                            <li>
+                                <div class="redes-list-title">
+                                    <img src="img/logo-fotolog.png" alt="">
+                                    <h3 id="Fotolog">Fotolog (2002)</h3>
+
+                                </div>
+                                
                                 <p class="parrafo"> Precursor de Instagram, permitía subir una foto al día acompañada de texto. Era popular entre adolescentes y artistas visuales. Se volvió tendencia por los comentarios públicos y las “firmas” que los amigos dejaban en cada publicación.</p>
                                 <p class="parrafo"> </p>
                                 <p class="parrafo"> </p>
                                 <p class="parrafo"> </p>
                             </li>
-                            <li><a href="">Facebook</a>
-                                <p class="parrafo"> </p>
-                                <p class="parrafo"> </p>
-                                <p class="parrafo"> </p>
-                            </li>
-                            <li><a href="">Facebook</a>
-                                <p class="parrafo"> </p>
-                                <p class="parrafo"> </p>
-                                <p class="parrafo"> </p>
-                            </li>
+                            <li>
+                                <div class="redes-list-title">
+                                    <img src="img/facebook.png" alt="">
+                                    <h3 id="facebook"> Facebook</h3>
 
-                            <li><a href="">twitter</a>
+                                </div>
+                               
+                                <p class="parrafo"> </p>
+                                <p class="parrafo"> </p>
+                                <p class="parrafo"> </p>
+                            </li>
+                        
+                            <li>
+                                <div class="redes-list-title">
+                                    <img src="img/twitter.png" alt="">
+                                    <h3 id="twitter">twitter </h3>
+
+                                </div>
+                                
+                                <p class="parrafo"> </p>
+                                <p class="parrafo"> </p>
+                                <p class="parrafo"> </p>
+                            </li>
+                            <li>
+                                <div class="redes-list-title">
+                                    <img src="img/instagram.png" alt="">
+                                    <h3 id="instagram"> instagram</h3>
+
+                                </div>
+                                
                                 <p class="parrafo"> </p>
                                 <p class="parrafo"> </p>
                                 <p class="parrafo"> </p>
                             </li>
                         </ul>
                     </div>
-                    <div class="content" id="hi5">
-                        <h3>Hi5</h3>
-                        <p></p>
-                    </div>
-                     <div class="content" id="myspace">
-                        <h3>Myspace</h3>
-                        <p></p>
-                    </div>
-                     <div class="content" id="msn">
-                        <h3>msn messenger</h3>
-                    </div>
-                     <div class="content" id="twitter">
-                        <h3>Twitter</h3>
-                    </div>
-                     <div class="content" id="facebook">
-                        <h3>Facebook</h3>
-                    </div> <div class="content">
-                        <h3></h3>
-                    </div> <div class="content">
-                        <h3></h3>
-                    </div>
+
                     <div class="content"></div>
                     <div class="content"></div>
 
