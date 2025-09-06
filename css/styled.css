@@ -150,7 +150,7 @@ li{
     padding: 10px 20px;
    width: 100%;
     color: black;
-    
+   
 
 }
 .menu .submenu a:hover{
@@ -161,7 +161,7 @@ li{
 
 .banner{
     
-    background-image:linear-gradient(to left, rgba(227, 230, 238, 0.4), rgba(69, 219, 77, 0.5)) ;
+    background-image:linear-gradient(to left, black, rgba(14, 177, 22, 0.5)) ;
     backdrop-filter: blur(10px);
     width: 100%;
     height: 15rem;
@@ -308,11 +308,14 @@ main{
     line-height: 1.3;
     margin-bottom: 1rem;
 }
+
+
 .content ul li{
        font-family:'Inter', sans-serif;
     font-size: 1.3em;
     list-style:square;
 }
+
 
 .imagen-evolucion-digital{
     width: 100%;
@@ -337,6 +340,25 @@ main{
     line-height: 1.5rem;
 }
 
+.content .redes-list li .redes-list-title{
+    display: flex;
+    gap: 10px;
+    
+}
+.content .redes-list li {
+    margin-bottom: 2rem;
+}
+
+.content .redes-list li h3{
+    color: #09610E;
+}
+.content .redes-list li img{
+    width: 2.3rem;
+    height: auto;
+    object-fit: cover;
+    margin-right: 10px;
+    
+}
 .redes-list a{
     text-decoration: none;
     color: inherit;
@@ -398,6 +420,14 @@ main{
     
 }
 
+@media screen and (max-width: 900px) {
 
+    header{
+        background-color: #000;
+    }
+    .menu{
+       
+    }
+}
 
 
