@@ -159,6 +159,12 @@ li{
     color: #fff;
 }
 
+.sidebar{
+    display: none;
+   
+    
+}
+
 .banner{
     
     background-image:linear-gradient(to left, black, rgba(14, 177, 22, 0.5)) ;
@@ -185,15 +191,15 @@ li{
 }
 
 .image_container{  
-    height: 40vh;
-    display: flex;
+   height: 40vh;
+   display: flex;
    width: 80%;
    overflow: hidden;
-    gap: 20px;
-    transition: all 4s linear;
-      gap: 20px; /* separa entre cards */
-  margin-right: 40px; /* 👈 separa el final del primer bloque y el inicio del segundo */
-    animation: imganime 20s linear infinite;
+   gap: 20px;
+   transition: all 4s linear;
+   gap: 20px; /* separa entre cards */
+   margin-right: 40px; /* 👈 separa el final del primer bloque y el inicio del segundo */
+   animation: imganime 20s linear infinite;
 }
 .image_container .card{
     padding: 10px 50px;
@@ -203,11 +209,16 @@ li{
     align-items: center;
     width: 100%;
     height: 200px;
-    border-radius: 8px; /* opcional: para que se vean más bonitas */
+    border-radius: 10px; /* opcional: para que se vean más bonitas */
      background: #fff; /* para que la sombra se note mejor */
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* sombra suave */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-   
+    border-bottom: 5px solid #90d693;
+    
+}
+.image_container .card:hover{
+    border-bottom: 5px solid #0ab813;
+
 }
 .image_container .card a{
     
@@ -485,6 +496,141 @@ main{
     .menu{
        
     }
+    .banner{
+    width: 100%;
+    height: 15rem;
+    }
+    .image_slider{
+    width: 90%;
+    top: 10rem;
+    padding-top:1rem ;
+   
+    }
+   
+
+.image_container{  
+   height: 30vh;
+   width: 100%;
+   margin-right: 0px; /* 👈 separa el final del primer bloque y el inicio del segundo */
 }
+.image_container .card{
+    padding: 10px 20px;
+    width: 100%;
+    height: 150px;
+   
+   
+}
+.image_container img{
+    width: 70%;   /* no pasa del 80% del ancho de la tarjeta */
+    height: 70%; 
+    margin-bottom: 0rem;
+}
+.image_container .nombre-redes {
+    font-size: 16px;
+    margin-top: 0px;
+}
+main{
+    width: 100%;
+    height: 100%;
+      margin: 9rem 0;
+   
+    
+}
+.content-article{
+    background-color: transparent;
+    width: 80%;
+    padding: 4px;
+}
+
+.content-article h1{
+    font-size: 35px;
+    padding: 0px;
+  
+}
+
+
+}
+  @media screen and (max-width: 700px) {
+   .menu-sidebar{
+       position: absolute;
+       top: 60px;
+       right: 0;
+       background-color: rgba(9, 97, 14, .6);
+       backdrop-filter: blur(10px);
+       width: 50%;
+       display: flex;
+       flex-direction: column;
+       padding: 40px;
+       border-radius: 10px;
+    }
+    .sidebar{
+        display: block;
+        background-color: #fff;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        z-index: 20;
+        border-radius: 30%;
+    }
+    .sidebar img{
+        width: 100%;
+     padding: 5px;
+    }
+    .submenu{
+        background-color: #fff;
+        position: absolute;
+        left: -10rem;
+        width: 100%;
+    }
+    .content-article h1{
+    font-size: 25px;
+
+  
+}
+main{
+    
+      margin: 7rem 0;
+   
+    
+}
+.content-article{
+    background-color: transparent;
+    width: 80%;
+    padding: 4px;
+}
+
+.content-article h1{
+    font-size: 25px;
+    padding: 0px;
+  
+}
+  } 
+    @media screen and (max-width: 500px) {
+     .menu-sidebar{
+        width: 100%;
+        
+    
+    }
+      
+      .submenu{
+        background-color: rgb(255, 255, 255);
+        backdrop-filter: blur(10px);
+        left: 0;;
+        width: 50%;
+        font-size: 1em;
+        
+    }
+    .menu .sidebar li{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu .submenu li a{
+        font-size: .8em;
+        padding:10px 20px ;
+        
+    }
+  } 
 
 
